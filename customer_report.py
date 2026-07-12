@@ -7,7 +7,6 @@ customers = [
 ] 
 
 def tier(balance): 
-    """Determines customer tier based on their TeleBirr balance."""
     if balance >= 1000: 
         return "Premium" 
     elif balance >= 500: 
