@@ -8,13 +8,13 @@ elif 15 <= temperature <= 28:
 else:
     print("hot")
 
-print("-" * 20)  
+  
 
 
 for number in range(1, 11):
     print(f"Receipt #{number}")
 
-print("-" * 20)
+
 
 
 for num in range(1, 21):
