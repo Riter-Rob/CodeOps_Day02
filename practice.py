@@ -21,7 +21,7 @@ for num in range(1, 21):
     if num % 2 == 0:
         print(num)
 
-print("-" * 20)
+
 
 
 def apply_discount(price, percent=10):
@@ -32,7 +32,6 @@ def apply_discount(price, percent=10):
 print(f"Original 100, default 10% discount: {apply_discount(100)}")
 print(f"Original 100, custom 25% discount: {apply_discount(100, 25)}")
 
-print("-" * 20)
 
 count = 5
 while count > 0:
